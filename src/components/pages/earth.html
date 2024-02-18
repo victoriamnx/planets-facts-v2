@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Planets fact site</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="/index.html">mercury</a></li>
+          <li id="venus"><a href="venus.html">venus</a></li>
+          <li id="earth"><a href="earth.html">earth</a></li>
+          <li id="mars"><a href="mars.html">mars</a></li>
+          <li id="jupiter"><a href="jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="saturn.html">saturn</a></li>
+          <li id="uranus"><a href="uranus.html">uranus</a></li>
+          <li id="neptune"><a href="neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="infos">
+        <div class="img">
+          <img src="../assets/planet/planet-earth.svg" alt="" id="planetImage" />
+        </div>
+
+        <div>
+          <h1>Earth</h1>
+          <p id="planetTextEarth">
+            Third planet from the Sun and the only known<br />
+            planet to harbor life. About 29.2% of Earth's<br />
+            surface is land with remaining 70.8% is<br />
+            covered with water. Earth's distance from the<br />
+            Sun, physical properties and geological history<br />
+            have allowed life to evolve and thrive.
+          </p>
+
+          <h2 id="link">
+            Source:
+            <a id="wikiLink" href="https://en.wikipedia.org/wiki/Earth">
+              Wikipedia
+              <img id="source" src="/assets/icon-source.svg" alt="Source icon"
+            /></a>
+          </h2>
+
+          <div class="btns">
+            <button id="overviewButton">
+              <h2>01</h2>
+              Overview
+            </button>
+            <button id="internalStructureButton">
+              <h2>02</h2>
+              Internal Structure
+            </button>
+            <button id="surfaceGeologyButton">
+              <h2>03</h2>
+              Surface Geology
+            </button>
+          </div>
+
+          <!-- Internal Structure Content Start
+
+          Earth's interior, like that of the other terrestrial planets, is
+          divided into layers by their chemical or physical (rheological)
+          properties. The outer layer is a chemically distinct silicate solid
+          crust, which is underlain by a highly viscous solid mantle. Source :
+          Wikipedia
+           URL: https://en.wikipedia.org/wiki/Earth#Internal_structure 
+
+          Surface Geology Content Start The total surface area of Earth is about
+          510 million km2. The continental crust consists of lower density
+          material such as the igneous rocks granite and andesite. Less common
+          is basalt, a denser volcanic rock that is the primary constituent of
+          the ocean floors. Source : Wikipedia URL:
+          https://en.wikipedia.org/wiki/Earth#Surface -->
+        </div>
+      </div>
+
+      <div class="statics">
+        <div class="stat">
+          <h1>Rotation Time</h1>
+          <h2>0.99 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Revolution Time</h1>
+          <h2>87.97 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Radius</h1>
+          <h2>6,371 KM</h2>
+        </div>
+        <div class="stat">
+          <h1>Average Temp.</h1>
+          <h2>16°c</h2>
+        </div>
+      </div>
+
+      <div class="attribution">
+        <span>Challenge by&nbsp;</span
+        ><a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          title="Go to Frontend Mentor site"
+          >Frontend Mentor.
+        </a>
+        <span> Coded by&nbsp;</span
+        ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+          >victoriamnx.</a
+        >
+      </div>
+
+      <script src="earth.js"></script>
+    </main>
+  </body>
+</html>
