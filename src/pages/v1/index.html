@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Planets fact site</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="index.html">mercury</a></li>
+          <li id="venus"><a href="./pages/venus.html">venus</a></li>
+          <li id="earth"><a href="./pages/earth.html">earth</a></li>
+          <li id="mars"><a href="./pages/mars.html">mars</a></li>
+          <li id="jupiter"><a href="./pages/jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="./pages/saturn.html">saturn</a></li>
+          <li id="uranus"><a href="./pages/uranus.html">uranus</a></li>
+          <li id="neptune"><a href="./pages/neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="infos">
+        <div class="img">
+          <img
+            src="./assets/planet/planet-mercury.svg"
+            alt=""
+            id="planetImage"
+          />
+        </div>
+
+        <div>
+          <h1 id="planeName">Mercury</h1>
+          <p id="planetText">
+            Mercury is the smallest planet in the Solar<br />
+            System and the closest to the Sun. Its orbit <br />around the Sun
+            takes 87.97 Earth days, the <br />shortest of all the Sun's planets.
+            Mercury is one <br />of four terrestrial planets in the Solar
+            System,<br />
+            and is a rocky body like Earth.
+          </p>
+          <h2 id="link">
+            Source:
+            <a
+              id="wikiLink"
+              href="https://en.wikipedia.org/wiki/Mercury_(planet)"
+            >
+              Wikipedia
+              <img id="source" src="assets/icon-source.svg" alt="Source icon"
+            /></a>
+          </h2>
+
+          <div class="btns">
+            <button id="overviewButton">
+              <h2>01</h2>
+              Overview
+            </button>
+            <button id="internalStructureButton">
+              <h2>02</h2>
+              Internal Structure
+            </button>
+            <button id="surfaceGeologyButton">
+              <h2>03</h2>
+              Surface Geology
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="statics">
+        <div class="stat">
+          <h1>Rotation Time</h1>
+          <h2>58.6 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Revolution Time</h1>
+          <h2>87.97 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Radius</h1>
+          <h2>2,439.7 KM</h2>
+        </div>
+        <div class="stat">
+          <h1>Average Temp.</h1>
+          <h2>430°c</h2>
+        </div>
+      </div>
+
+      <div class="attribution">
+        <span>Challenge by&nbsp;</span
+        ><a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          title="Go to Frontend Mentor site"
+          >Frontend Mentor.
+        </a>
+        <span> Coded by&nbsp;</span
+        ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+          >victoriamnx.</a
+        >
+      </div>
+
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>

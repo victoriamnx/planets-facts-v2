@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Planets fact site</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="/index.html">mercury</a></li>
+          <li id="venus"><a href="venus.html">venus</a></li>
+          <li id="earth"><a href="earth.html">earth</a></li>
+          <li id="mars"><a href="mars.html">mars</a></li>
+          <li id="jupiter"><a href="jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="saturn.html">saturn</a></li>
+          <li id="uranus"><a href="uranus.html">uranus</a></li>
+          <li id="neptune"><a href="neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="infos">
+        <div class="img">
+          <img src="../assets/planet/planet-venus.svg" alt="" id="planetImage" />
+        </div>
+
+        <div>
+          <h1>Venus</h1>
+          <p id="planetTextVenus">
+            Venus is the second planet from the Sun.<br />
+            It is named after the Roman goddess of love and<br />
+            beauty. As the brightest natural object in<br />
+            Earth's night sky after the Moon, Venus can cast <br />shadows and
+            can be, on rare occasions, visible <br />to the naked eye in broad
+            daylight.
+          </p>
+
+          <h2 id="link">
+            Source:
+            <a id="wikiLink" href="https://en.wikipedia.org/wiki/Venus">
+              Wikipedia
+              <img id="source" src="/assets/icon-source.svg" alt="Source icon"
+            /></a>
+          </h2>
+
+          <div class="btns">
+            <button id="overviewButton" class="btnVenus">
+              <h2>01</h2>
+              Overview
+            </button>
+            <button id="internalStructureButton" class="btnVenus">
+              <h2>02</h2>
+              Internal Structure
+            </button>
+            <button id="surfaceGeologyButton" class="btnVenus">
+              <h2>03</h2>
+              Surface Geology
+            </button>
+          </div>
+        </div>
+        <!-- Internal Structure Content Start 
+  
+      The similarity in size and density between Venus and Earth suggests they
+      share a similar internal structure: a core, mantle, and crust. Like that of
+      Earth, Venusian core is most likely at least partially liquid because the
+      two planets have been cooling at about the same rate. Source : Wikipedia
+      URL: https://en.wikipedia.org/wiki/Venus#Internal_structure 
+  
+      Internal Structure Content End 
+  
+      Surface Geology Content Start 
+  
+      Much of the Venusian surface appears to have been shaped by volcanic
+      activity. Venus has several times as many volcanoes as Earth, and it has 167
+      large volcanoes that are over 100 km (60 mi) across. The only volcanic
+      complex of this size on Earth is the Big Island of Hawaii. Source :
+      Wikipedia
+      URL: https://en.wikipedia.org/wiki/Venus#Surface_geology 
+  
+      Surface Geology Content End -->
+      </div>
+
+      <div class="statics">
+        <div class="stat">
+          <h1>Rotation Time</h1>
+          <h2>243 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Revolution Time</h1>
+          <h2>224.7 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Radius</h1>
+          <h2>6,051.8 KM</h2>
+        </div>
+        <div class="stat">
+          <h1>Average Temp.</h1>
+          <h2>471°c</h2>
+        </div>
+      </div>
+
+      <div class="attribution">
+        <span>Challenge by&nbsp;</span
+        ><a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          title="Go to Frontend Mentor site"
+          >Frontend Mentor.
+        </a>
+        <span> Coded by&nbsp;</span
+        ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+          >victoriamnx.</a
+        >
+      </div>
+
+      <script src="venus.js"></script>
+    </main>
+  </body>
+</html>

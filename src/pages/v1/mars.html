@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Planets fact site</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="/index.html">mercury</a></li>
+          <li id="venus"><a href="venus.html">venus</a></li>
+          <li id="earth"><a href="earth.html">earth</a></li>
+          <li id="mars"><a href="mars.html">mars</a></li>
+          <li id="jupiter"><a href="jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="saturn.html">saturn</a></li>
+          <li id="uranus"><a href="uranus.html">uranus</a></li>
+          <li id="neptune"><a href="neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="infos">
+        <div class="img">
+          <img src="/assets/planet/planet-mars.svg" alt="" id="planetImage" />
+        </div>
+
+        <div>
+          <h1>Mars</h1>
+          <p id="planetTextMars">
+            Mars is the fourth planet from the Sun and the <br />second-smallest
+            planet in the Solar System, <br />being larger than only Mercury. In
+            English,<br />
+            Mars carries the name of the Roman god of <br />war and is often
+            referred to as the "Red Planet".
+          </p>
+
+          <h2 id="link">
+            Source:
+            <a id="wikiLink" href="https://en.wikipedia.org/wiki/Mars ">
+              Wikipedia
+              <img id="source" src="/assets/icon-source.svg" alt="Source icon"
+            /></a>
+          </h2>
+
+          <div class="btns">
+            <button id="overviewButton">
+              <h2>01</h2>
+              Overview
+            </button>
+            <button id="internalStructureButton">
+              <h2>02</h2>
+              Internal Structure
+            </button>
+            <button id="surfaceGeologyButton">
+              <h2>03</h2>
+              Surface Geology
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="statics">
+        <div class="stat">
+          <h1>Rotation Time</h1>
+          <h2>1.03 Days</h2>
+        </div>
+        <div class="stat">
+          <h1>Revolution Time</h1>
+          <h2>1.88 Years</h2>
+        </div>
+        <div class="stat">
+          <h1>Radius</h1>
+          <h2>3,389.5 KM</h2>
+        </div>
+        <div class="stat">
+          <h1>Average Temp.</h1>
+          <h2>-28°c</h2>
+        </div>
+      </div>
+
+      <div class="attribution">
+        <span>Challenge by&nbsp;</span
+        ><a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          title="Go to Frontend Mentor site"
+          >Frontend Mentor.
+        </a>
+        <span> Coded by&nbsp;</span
+        ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+          >victoriamnx.</a
+        >
+      </div>
+
+      <script src="mars.js"></script>
+    </main>
+  </body>
+</html>
