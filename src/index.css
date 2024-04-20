@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-nav{
+  position: fixed;
+}
+
 #menu__toggle {
   opacity: 0;
 }
@@ -35,10 +39,11 @@
   position: absolute;
   width: 100%;
   height: 4px;
-  background-color: #FFFFFF3F;
+  background-color: #fff;
   font-family: "Jost", sans-serif;
   transition-duration: 0.25s;
 }
+
 .menu__btn > span::before {
   content: "";
   top: -8px;
@@ -51,7 +56,7 @@
   display: block;
   position: fixed;
   font-family: "Jost", sans-serif;
-  top: 96px;
+  top: 75px;
   right: -100%;
   width: 100%;
   height: auto;
