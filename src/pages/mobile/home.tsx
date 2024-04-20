@@ -10,8 +10,8 @@ import Arrow from "/src/components/icon-chevron.svg";
 
 export default function HomeMobile() {
   return (
-    <div className="flex flex-col  bg-darkblue">
-      <div className="fixed hamburger-menu w-screen flex py-4 px-4 bg-primary-white z-50 border-b border-whiteOp">
+    <div className="bg-[url('./src/components/background-stars.svg')] bg-no-repeat bg-centerflex flex-col ">
+      <div className="header-nav fixed hamburger-menu w-screen flex py-4 px-4 bg-primary-white z-50 border-b border-whiteOp bg-darkblue">
         <div>
           <h1 className="text-white text-[28px] font-normal font-antonio uppercase">
             THE PLANETS
@@ -99,6 +99,27 @@ export default function HomeMobile() {
             <img src={Arrow} alt="" />
           </li>
         </ul>
+      </div>
+
+      <div className="flex gap-11 relative mt-[75px] items-center justify-center border-b border-whiteOp">
+        <button
+          id="overviewButton"
+          className="pt-5 pb-4 border-b-4 border-solid border-white border-opacity-0 hover:border-b-4 hover:border-solid hover:border-smerald text-white text-[9px] font-bold font-spartan uppercase tracking-widest"
+        >
+          Overview
+        </button>
+        <button
+          id="internalStructureButton"
+          className="pt-5 pb-4 border-b-4 border-solid border-white border-opacity-0 hover:border-b-4 hover:border-solid hover:border-smerald text-white text-[9px] font-bold font-spartan uppercase tracking-widest"
+        >
+          Internal
+        </button>
+        <button
+          id="surfaceGeologyButton"
+          className="pt-5 pb-4 border-b-4 border-solid border-white border-opacity-0 hover:border-b-4 hover:border-solid hover:border-smerald text-white text-[9px] font-bold font-spartan uppercase tracking-widest"
+        >
+          Surface
+        </button>
       </div>
     </div>
   );
